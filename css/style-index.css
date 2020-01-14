@@ -93,4 +93,19 @@ form{
     #total{
         display: unset;
     }
+
+    #divcelsius{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    #divfahre{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    #divkelvin{
+        font-size: 10px;
+    }
 }
+
