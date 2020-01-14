@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form{
+    border: black solid 1px;
+    padding: 30px;
+    margin: 20px;
+}
+
+#total{
+    display: flex;
+    justify-content: center;
+
+}
+
+#resultado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#altura2{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#divcelsius{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divfahre{
+    margin-right: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divkelvin{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#baixo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#campos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#vel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+}
+
+#numeroin{
+    margin-bottom: 20px;
+}
+
+#botao4{
+    margin-bottom: 10px;
+}
+
+#valores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#botao5{
+    margin-top: 20px;
+}

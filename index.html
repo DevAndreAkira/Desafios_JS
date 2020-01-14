@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="icon" href="img/js.png">
+    <title>Desafios JS</title>
+</head>
+
+<body>
+    <h1>Desafios propostos pelo SENAI para C# adaptados para Javascript</h1>
+    <div id="total">
+        <div id="esquerda">
+            <section id="calculador_retangulos">
+                <div id="lateralizando">
+                    <form id="calculo_usuario">
+                        <div id="ajeitador">
+                            <h1>Calcule o seu retângulo/quadrado</h1>
+                            <div id="base2">Base<input type="text" id="basein"></div>
+                            <div id="altura2">Altura<input type="text" id="alturain"></div>
+                            <button id="botao">Calcular</button>
+
+                            <div id="resultado">
+                                <div id="estiloperimetro">
+                                    <h3>Perímetro</h3>
+                                    <output id="perimetro2"></output>
+                                </div>
+                                <div id="estiloarea">
+                                    <h3>Área</h3>
+                                    <output id="area2"></output>
+                                </div>
+                                <div id="estilodiagonal">
+                                    <h3>Diagonal</h3>
+                                    <output id="diagonal2"></output>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+            </section>
+            <script src="js/retangulo.js"></script>
+
+            <section id="calculador_temperatura">
+                <form id="inseririnfo">
+                    <h1>Conversor de temperaturas</h1>
+                    <div id="temperaturas">
+                        <div id="divcelsius">Celsius<input type="text" id="celsiusin"></div>
+                        <div id="divfahre">Fahrenheit<input type="text" id="fahrein"></div>
+                        <div id="divkelvin">Kelvin<input type="text" id="kelvinin"></div>
+                    </div>
+                    <button id="botao2">Converter</button>
+                    <div id="resultado">
+                        <div id="estilocelsius">
+                            <h3>Celsius</h3>
+                            <output id="celsiusout"></output>
+                        </div>
+
+                        <div id="estilofahre">
+                            <h3>Fahrenheit</h3>
+                            <output id="fahreout"></output>
+                        </div>
+                        <div id="estilokelvin">
+                            <h3>Kelvin</h3>
+                            <output id="kelvinout"></output>
+                        </div>
+                    </div>
+                </form>
+                <script src="js/temp.js"></script>
+            </section>
+
+            <section id="calculador_viagens">
+                <form>
+                    <h1>Calculador de viagens</h1>
+                    <div id="campos">
+                        <div id="vel">
+                            <p>Insira a velocidade(Km/h)</p>
+                            <input type="text" id="velin">
+                        </div>
+                        <div id="tem">
+                            <p>Insira o tempo(horas)</p>
+                            <input type="text" id="tempoin">
+                        </div>
+                    </div>
+                    <button id="botao3">Calcular</button>
+                    <div id="baixo">
+                        <div>
+                            <div>
+                                <h3>Velocidade média</h3>
+                                <output id="velout"></output>
+                            </div>
+                            <div>
+                                <h3>Tempo gasto</h3>
+                                <output id="tempoout"></output>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Distância percorrida</h3>
+                                <output id="distanciaout"></output>
+                            </div>
+                            <div>
+                                <h3>Litros usados</h3>
+                                <output id="litrosout"></output>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <script src="js/calculador.js"></script>
+            </section>
+        </div>
+
+        <div id="direita">
+            <section id="par_impar">
+                <form>
+                    <h1>Par ou Ímpar</h1>
+                    <p>Insira um número</p>
+                    <input type="text" id="numeroin">
+                    <button id="botao4">Calcular</button>
+                    <div>
+                        <output id="numeroout"></output>
+                    </div>
+                </form>
+                <script src="js/impar_par.js"></script>
+            </section>
+
+
+            <section id="trocar_valores">
+                <form>
+                    <div>
+                        <h1>Troca de valores</h1>
+                        <p>Insira os números para serem trocados:</p>
+                        <input type="text" id="valorin1">
+                        <input type="text" id="valorin2">
+                    </div>
+                    <button id="botao5">Trocar</button>
+                    <div id="valores">
+                        <div>
+                            <h3>Valor 1</h3>
+                            <output id="valorout1"></output>
+                        </div>
+                        <div>
+                            <h3>Valor 2</h3>
+                            <output id="valorout2"></output>
+                        </div>
+                    </div>
+                </form>
+                <script src="js/trocar.js"></script>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
