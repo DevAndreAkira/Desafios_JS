@@ -109,3 +109,72 @@ form{
     }
 }
 
+@media (max-width: 420px){
+    #divcelsius{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    #divfahre{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    #divkelvin{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #altura2{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #base2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #vel{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #tem{
+        margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+}
