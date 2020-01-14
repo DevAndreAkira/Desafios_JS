@@ -169,12 +169,20 @@ form{
         flex-direction: column;
     }
 
+    #botao3{
+        margin-top: 20px;
+    }
+
     h1{
         font-size: 18px;
     }
 
     h3{
         font-size: 12px;
+    }
+
+    #valorin1{
+        margin-bottom: 10px;
     }
 
 }
