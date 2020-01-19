@@ -94,3 +94,13 @@ form{
 #botao9{
     margin-top: 10px;
 }
+
+@media (max-width:900px){
+    #total{
+        display: inline-block;
+    };
+}
+
+@media (max-width:450px){
+
+}
