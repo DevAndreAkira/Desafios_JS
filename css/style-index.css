@@ -8,6 +8,8 @@ form{
     border: black solid 1px;
     padding: 30px;
     margin: 20px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #total{
@@ -89,100 +91,6 @@ form{
     margin-top: 20px;
 }
 
-@media (max-width:700px){
-    #total{
-        display: unset;
-    }
-
-    #divcelsius{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-
-    #divfahre{
-        font-size: 10px;
-        margin-left: 15px;
-    }
-
-    #divkelvin{
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 420px){
-    #divcelsius{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-
-    #divfahre{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-
-    #divkelvin{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    #altura2{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    #base2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #vel{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #tem{
-        margin: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #botao3{
-        margin-top: 20px;
-    }
-
-    h1{
-        font-size: 18px;
-    }
-
-    h3{
-        font-size: 12px;
-    }
-
-    #valorin1{
-        margin-bottom: 10px;
-    }
-
+#botao9{
+    margin-top: 10px;
 }

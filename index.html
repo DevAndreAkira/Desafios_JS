@@ -109,6 +109,39 @@
                 </form>
                 <script src="js/calculador.js"></script>
             </section>
+
+            <section>
+                <form>
+                    <h1>Pesador de planetas</h1>
+                    <div>
+                        <p>Insira seu peso e veja como ficaria em outros planetas</p>
+                        <label>Peso na terra</label>
+                        <input type="text" id="pesoin">
+                        <output id="pesoout"></output>
+                    </div>
+                    <button id="botao9">Calcular</button>
+                    <div style="display: flex; justify-content: space-around;">
+                        <div>
+                            <p>Mercúrio</p>
+                            <output id="mercurioout"></output>
+                            <p>Vênus</p>
+                            <output id="venusout"></output>
+                            <p>Marte</p>
+                            <output id="marteout"></output>
+                        </div>
+                        <div>
+                            <p>Júpiter</p>
+                            <output id="jupiterout"></output>
+                            <p>Saturno</p>
+                            <output id="saturnoout"></output>
+                            <p>Urano</p>
+                            <output id="uranoout"></output>
+                        </div>
+                    </div>
+                </form>
+                <script src="js/calc_peso_planetas.js"></script>
+            </section>
+
         </div>
 
         <div id="direita">
@@ -148,6 +181,61 @@
                 </form>
                 <script src="js/trocar.js"></script>
             </section>
+
+            <section>
+                <form>
+                    <h1>Impressora de números</h1>
+                    <p>Clique no botão para imprimir números de 0 à 100</p>
+                    <button id="botao6" style="margin: 10px;">OK</button>
+                    <div>
+                        <output id="sequenciaout"></output>
+                    </div>
+                </form>
+                <script src="js/sequencia.js"></script>
+            </section>
+
+            <section>
+                <form>
+                    <h1>Ímpares de 1 à 10</h1>
+                    <br>
+                    <p>Aperte o botão para visualizar os números ímpares de 1 à 10</p>
+                    <button id="botao7">OK</button>
+                    <output id="out"></output>
+                </form>
+                <script src="js/impares.js"></script>
+            </section>
+
+            <section>
+                <form>
+                    <h1>Gerador de triangulos</h1>
+                    <div style="margin: 10px">
+                        <p>Insira as informações para mostrar seu triangulo</p>
+                        <label>Altura</label>
+                        <input type="number" id="altura">
+                        <button id="botao8">OK</button>
+                    </div>
+                    <output id="triout"></output>
+                </form>
+                <script src="js/calc_triangulo.js"></script>
+            </section>
+
+            <section>
+                <form>
+                    <h1>Múltiplos de 3</h1>
+                    <br>
+                    <div style="margin: 10px;">
+                        <p>Insira um número e veja se ele é múltiplos de 3</p>
+                        <label>Número</label>
+                        <input id="digitoin" type="text">
+                        <button id="botao10">Calcular</button>
+                    </div>
+                    <div>
+                        <output id="eitaout"></output>
+                    </div>
+                    <script src="js/calc_3.js"></script>
+                </form>
+            </section>
+
         </div>
     </div>
 </body>
